@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="stopwatch-container">
-      <h1>⏱️ Pyari Si Stopwatch</h1>
+      <h1>⏱️ Stopwatch</h1>
       <div className="time">{formatTime(time)}</div>
       <div className="buttons">
         {!isRunning ? (
